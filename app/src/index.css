@@ -1,4 +1,4 @@
-.root {
-  --header-gradient-top: #bdc3c7;
-  --header-gradient-bottom: #2c3e50;
+:root {
+  --headerGradTop: #003973;
+  --headerGradBot: #5FC3E4;
 }

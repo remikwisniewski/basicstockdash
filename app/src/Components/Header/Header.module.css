@@ -1,0 +1,7 @@
+.header{
+    width: 100%;
+    padding: 10px;
+    background: var(--headerGradTop);
+}
+
+/* var(name) - taken from index.css with :root{..} */
