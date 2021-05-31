@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Header.module.css';
+import modstyles from './Header.module.css';
 import logo from '../../images/logo.png';
 
 
@@ -12,15 +12,15 @@ import logo from '../../images/logo.png';
 
 const Header = () => {
     return (
-        <header className={styles.header}>
+        <header className={modstyles.header}>
 
-        <div className={styles.logoContainer}>
-            <img src={logo} class={styles.logo}/>
+        <div className={modstyles.logoContain}>
+            <img src={logo} class={modstyles.logo}/>
             <span>Basic Stock Dashboard</span>
         </div>
 
-        <div className={styles.userContainer}>
-            <div className={styles.user}>R</div>
+        <div className={modstyles.userContain}>
+            <div className={modstyles.user}>R</div>
             <span>Remi</span>
         </div>
 

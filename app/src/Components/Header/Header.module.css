@@ -1,5 +1,6 @@
 .header{
     display: flex;
+    justify-content: space-around;
     padding: 10px;
     width: 100%;
     padding: 10px;
@@ -9,7 +10,7 @@
 
 /* var(name) - taken from index.css with :root{..} */
 
-.logoContainer{
+.logoContain{
     display: flex;
     align-items: center;
 }
@@ -21,14 +22,14 @@
     margin-right: 10px;
 }
 
-.userContainer{
+.userContain{
     display: flex;
     align-items: center;
 }
 
 .user{
-    width: 32.5px;
-    height: 32.5px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     margin-right: 10px;
     color: var(--headerGradTop);
