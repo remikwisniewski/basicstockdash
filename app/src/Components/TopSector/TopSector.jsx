@@ -1,5 +1,5 @@
 import React from 'react';
-import modstyles from './Header.module.css';
+import modstyles from './TopSector.module.css';
 import logo from '../../images/logo.png';
 
 

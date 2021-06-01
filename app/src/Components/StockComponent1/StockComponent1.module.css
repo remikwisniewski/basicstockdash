@@ -1,0 +1,14 @@
+.StockComponent1{
+    background: linear-gradient(to bottom, var(--headerGradTop), var(--headerGradBot));
+    height: 300px;
+}
+
+/*
+the height of above is the height of the entire top sector
+margin: 0 auto; - it automatically sets all margin sides to 0s
+*/
+
+.container{
+    max-width: var(--webwidth);
+    margin: 0 auto;
+}

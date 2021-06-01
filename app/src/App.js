@@ -1,10 +1,12 @@
 import React from 'react';
-import Header from './Components/Header/Header';
+import TopSector from './Components/TopSector/TopSector';
+import StockComponent1 from './Components/StockComponent1/StockComponent1';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <TopSector/>
+      <StockComponent1/>
     </div>
   );
 }
