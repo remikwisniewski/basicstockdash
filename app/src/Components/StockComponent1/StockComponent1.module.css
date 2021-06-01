@@ -11,4 +11,5 @@ margin: 0 auto; - it automatically sets all margin sides to 0s
 .container{
     max-width: var(--webwidth);
     margin: 0 auto;
+    padding: 10px;
 }
