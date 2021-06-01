@@ -10,8 +10,8 @@ this function takes in props and whatever is inside <BottomSector> <BottomSector
 
 const BottomSector = (props) => {
     return (
-        <div class={modstyles.StockComponent1}>
-            <div class={modstyles.container}> {props.children} </div>
+        <div className={modstyles.StockComponent1}>
+            <div className={modstyles.container}> {props.children} </div>
             
         </div>
     )

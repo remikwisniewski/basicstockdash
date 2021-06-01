@@ -16,11 +16,13 @@ const ExchangeComponent = (props) => {
   const renderItems = () => {
     return props.exchanges.map((exchange) => {
       return (
-        <li className={modstyles.listName} key={exchange.name}>
+        <li className={modstyles.listItems} key={exchange.name}>
+
+          <div className={modstyles.square}/>
 
           <div className={modstyles.name}>{exchange.name}</div>
-          <div className={modstyles.index}>{exchange.price}</div>
-          <div className={modstyles.percentage}>{exchange.change}</div>
+          <div className={modstyles.price}>{exchange.price}</div>
+          <div className={modstyles.change}>{exchange.change}</div>
 
         </li>
       );

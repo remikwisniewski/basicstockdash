@@ -1,8 +1,49 @@
 .container{
     padding: 10px;
+    color: #fff;
 }
 
 .title{
     font-size: 1rem;
 }
 
+.exList{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+}
+
+/* 
+container, title, exlist: CSS of return for ExchangeComponent
+
+listItem, name, price, change: CSS of Exchange Component list
+*/
+
+.listItems{
+    display: flex;
+    margin: 10px 0;
+    position: relative;
+}
+
+.name{
+    width: 80px;
+}
+
+.price{
+    width: 80px;
+    color: rgb(14, 229, 14);
+}
+
+.change{
+    color: rgb(14, 229, 14);
+}
+
+.square{
+    width: 15px;
+    height: 15px;
+    border-radius: 15%;
+    background-color: rgb(14, 229, 14);
+    position: absolute;
+    left: -25px;
+    top: 4px;
+}
