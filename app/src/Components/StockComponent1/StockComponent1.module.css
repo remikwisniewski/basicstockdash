@@ -1,6 +1,5 @@
 .StockComponent1{
     background: linear-gradient(to bottom, var(--headerGradTop), var(--headerGradBot));
-    height: 300px;
 }
 
 /*

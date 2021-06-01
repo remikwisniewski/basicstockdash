@@ -19,7 +19,7 @@ const ExchangeComponent = (props) => {
         <li className={modstyles.listName} key={exchange.name}>
 
           <div className={modstyles.name}>{exchange.name}</div>
-          <div className={modstyles.index}>{exchange.index}</div>
+          <div className={modstyles.index}>{exchange.price}</div>
           <div className={modstyles.percentage}>{exchange.change}</div>
 
         </li>
