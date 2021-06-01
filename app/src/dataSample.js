@@ -34,6 +34,27 @@ const data = {
                 2019: 1,
                 2018: 1
             }
+        },{
+            name: "HomeDepot",
+            ticker: "HD",
+            bid: 140.21,
+            ask: 140.24,
+            sector: "Tech",
+            dividends: {
+                2020: 5,
+                2019: 7,
+                2018: 9
+            },
+            name: "Ford",
+            ticker: "F",
+            bid: 40.21,
+            ask: 40.24,
+            sector: "Tech",
+            dividends: {
+                2020: 3,
+                2019: 7,
+                2018: 9
+            }
         }
     ]
 }
