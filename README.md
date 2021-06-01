@@ -14,6 +14,7 @@ Files:
     - Exchange: Exchange.jsx, Exchange.module.css
     - StockComponent1: StockComponent1.jsx, stockComponent1.module.css
     - TopSector: TopSector.jsx, TopSector.module.css 
+    - Dividend: Dividend.jsx, Dividend.module.css 
 
 - App.js: main component file, index.js runs App.js
 
