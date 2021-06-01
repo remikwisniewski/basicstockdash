@@ -4,6 +4,8 @@ import StockComponent1 from './Components/StockComponent1/StockComponent1';
 import Exchange from './Components/Exchange/Exchange';
 import data from './dataSample.js';
 
+import Dividend from './Components/Dividend/Dividend';
+import { sortDivStocks } from './helperFunctions';
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <TopSector/>
       <StockComponent1> 
         <Exchange exchanges={data.exchanges}/>
+        <Dividend stocks={sortDivStocks(data.stocks)}/>
       </StockComponent1>
     </div>
   );

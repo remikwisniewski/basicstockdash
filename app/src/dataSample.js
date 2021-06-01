@@ -30,9 +30,9 @@ const data = {
             ask: 120.14,
             sector: "Tech",
             dividends: {
-                2020: 2,
-                2019: 1,
-                2018: 1
+                2021: 2,
+                2020: 1,
+                2019: 1
             }
         },{
             name: "HomeDepot",
@@ -41,9 +41,9 @@ const data = {
             ask: 140.24,
             sector: "Tech",
             dividends: {
-                2020: 5,
-                2019: 7,
-                2018: 9
+                2021: 5,
+                2020: 7,
+                2019: 9
             },
             name: "Ford",
             ticker: "F",
@@ -51,9 +51,9 @@ const data = {
             ask: 40.24,
             sector: "Tech",
             dividends: {
-                2020: 3,
-                2019: 7,
-                2018: 9
+                2021: 3,
+                2020: 7,
+                2019: 9
             }
         }
     ]
