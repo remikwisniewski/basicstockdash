@@ -22,7 +22,7 @@ const ExchangeComponent = (props) => {
 
           <div className={modstyles.name}>{exchange.name}</div>
           <div className={modstyles.price}>{exchange.price}</div>
-          <div className={modstyles.change}>{exchange.change}</div>
+          <div className={modstyles.change}>{exchange.change}%</div>
 
         </li>
       );
